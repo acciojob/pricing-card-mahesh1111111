@@ -1,16 +1,71 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <title>Pricing Card Page</title>
+  <style>
+    /* Card */
+    .card {
+      width: 300px;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
 
+    /* Image */
+    .card img {
+      width: 100px;
+    }
+
+    /* Title */
+    .card h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* Pricing Information */
+    .card p.price {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    /* Description */
+    .card p.description {
+      margin-top: 10px;
+    }
+
+    /* Buy Now Button */
+    .card button {
+      padding: 10px 20px;
+      background-color: #04AA6D;
+      color: white;
+      border-radius: 5px;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <!-- Card -->
+  <div class="card">
+
+    <!-- Image -->
+    <img src="https://example.com/image.jpg" alt="Image">
+
+    <!-- Title -->
+    <h1>Basic</h1>
+
+    <!-- Pricing Information -->
+    <p class="price">$5 / mo</p>
+
+    <!-- Description -->
+    <p class="description">
+      This plan is perfect for individuals or small businesses who are just starting out.
+    </p>
+
+    <!-- Buy Now Button -->
+    <button>Buy Now</button>
+
+  </div>
 
 </body>
-
 </html>
